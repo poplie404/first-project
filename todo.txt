@@ -1,2 +1,1 @@
-vabalabadubdup
-jegb
+1. Пройти пару **тем** по Git.
