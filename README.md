@@ -73,3 +73,12 @@ Deleted	- Файл удалён
 "Changes to be committed" — уже git add, ждут git commit
 
 "Untracked files" — Git их не отслеживает
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
