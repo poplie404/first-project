@@ -55,3 +55,21 @@ Message: сообщение коммита
 
 Обычно указывает на последнюю версию текущей ветки.
 
+## Статусы файлов в Git
+
+Показывает состояние файлов в рабочем каталоге и индексе (staging area).
+Возможные состояния:
+
+Untracked	-  Новый файл, не под контролем Git
+
+Modified - 	Файл изменён, но не добавлен в индекс
+
+Staged (или Changes to be committed) -	Файл добавлен в индекс и готов к коммиту
+
+Deleted	- Файл удалён
+
+"Changes not staged for commit" — изменены, но не git add
+
+"Changes to be committed" — уже git add, ждут git commit
+
+"Untracked files" — Git их не отслеживает
